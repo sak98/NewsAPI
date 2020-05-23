@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background: #333;
+}
+
+nav ul{
+    list-style-type: none ;
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color : #fff;
+    display: block;
+    padding: 10px;
+}
+
+nav li{
+    
+}
+
+nav li :hover{
+    background-color: rgb(201, 48, 48);
+}
+
+@media screen and {min-width: 768px;}
+
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
